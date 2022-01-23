@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return 'H我呀要生气咯？';
+    if (score <= 99) return '不够不够，再多吃一点!';
+    if (score <= 149) return 'H被吸入惹!';
+    if (score <= 199) return '应该不会有人玩到这么多吧？玩到了？告诉你，200分还有不同的文字。';
+    return '暴风吸入!H好吃到翘jiojio';
 }
 
 function toStr(obj) {
